@@ -1,5 +1,4 @@
-🎯 Virtual Mouse 
-
+🎯 Virtual Mouse Controller (VMC)
 ✨ Description
 Virtual Mouse Controller (VMC) est un projet innovant permettant de contrôler votre souris uniquement avec vos mains, via webcam 🖐️💻.
 Plus besoin de souris physique : déplacez le curseur, cliquez, scrollez et verrouillez votre écran grâce à des gestes naturels.
