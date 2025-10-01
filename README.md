@@ -1,93 +1,102 @@
-🎯 Virtual Mouse Controller (VMC)
-<p align="center"> <img src="https://i.imgur.com/2jvQ9Mh.png" alt="VMC Demo" width="600"/> </p>
-✨ Description
-Virtual Mouse Controller (VMC) est un logiciel révolutionnaire qui vous permet de contrôler votre souris uniquement avec vos mains 🖐️💻.
-Avec VMC :
-Déplacez le curseur avec votre index levé
-Effectuez un clic gauche/droit par pincement
-Scrollez verticalement avec un poing fermé
-Verrouillez l’écran avec le majeur levé 🖕
-Le tout avec une interface moderne, animations fluides, et dégradés colorés 🌈.
-<details> <summary>🚀 Fonctionnalités principales</summary>
-🔹 Détection en temps réel avec MediaPipe Hands
-🔹 Suivi fluide du curseur via un filtre de Kalman 1D
-🔹 Gestes intelligents pour clics, scroll et lock
-🔹 Interface PyQt6 moderne, thème sombre et animations
-🔹 Compatible Mac et Windows (fichiers .app et .exe bientôt disponibles)
-🔹 Optimisé pour multi-main (gauche/droite)
-</details>
-<details> <summary>🖐️ Gestes supportés</summary>
-Geste	Action
-🖖 Index levé (main droite)	Déplacer le curseur
-🤏 Pincement main droite	Clic gauche
-🤏 Pincement main gauche	Clic droit
-✊ Poing droit	Scroll bas
-✊ Poing gauche	Scroll haut
-🖕 Majeur levé	Lock / Fermer application active
-✋ Tous doigts fermés	Scroll automatique si main stable
-</details>
-<details> <summary>🖥️ Interface</summary>
-Fenêtre compacte : 400x450px
-Vidéo webcam intégrée avec bordure arrondie et ombre
-Dégradé animé en arrière-plan 🌈
-Boutons Start/Stop avec icône et animation
-Labels et info gestes interactifs 💡
-Footer discret avec copyright
-</details>
-<details> <summary>📸 Screenshots</summary>
-(Ajoutez vos images ici)
-Curseur contrôlé par la main
-Menu et info gestes visibles
-Animation du dégradé
-<p align="center"> <img src="https://i.imgur.com/k7b5aF5.png" width="400"/> <img src="https://i.imgur.com/9bC9m7p.png" width="400"/> </p> </details>
-<details> <summary>⚙️ Installation</summary>
-Prérequis
-Python ≥ 3.11 🐍
-Modules nécessaires :
-pip install opencv-python mediapipe pyautogui PyQt6 numpy
-Lancer le projet
-python main.py
-⚠️ Mac Users : autorisez l’accès à la webcam et aux commandes souris dans Préférences Système → Sécurité et confidentialité → Accessibilité.
-</details>
-<details> <summary>🖱️ Version compilée</summary>
-Prochainement disponible :
-Mac : VirtualMouse.app 🍏
-Windows : VirtualMouse.exe 🪟
-🔗 Téléchargement prévu sur notre site officiel VMC (à venir).
-</details>
-<details> <summary>⚙️ Configuration avancée</summary>
-Ajustez la sensibilité non-linéaire via sensibilité_non_lin()
-Modifiez les paramètres Kalman pour lisser plus ou moins le curseur
-Personnalisez le delay du clic et le dead zone pour votre confort
-</details>
-<details> <summary>💡 Astuces</summary>
-Placez-vous dans un environnement bien éclairé 🌞
-Gardez vos mains visibles et stables devant la caméra
-Patientez 1-2 secondes pour stabiliser le curseur
-Évitez de couvrir la caméra pour des mouvements précis
-</details>
-<details> <summary>👨‍💻 Auteur</summary>
-Mascret Clément
-Passionné par l’IA et l’interaction naturelle ordinateur-utilisateur
-Projet open-source ✨
-</details>
-<details> <summary>🤝 Contribution</summary>
-Contributions bienvenues :
-🐛 Signalez des bugs
-✨ Proposez de nouveaux gestes ou animations
-📂 Partagez vos améliorations sur GitHub
-</details>
-<details> <summary>📜 License</summary>
-Ce projet est sous MIT License
-Libre d’utilisation, modification et partage, mention obligatoire de l’auteur.
-</details>
-<details> <summary>🔜 Roadmap</summary>
-✅ Détection curseur et clics
-✅ Scroll vertical
-✅ Lock avec majeur levé
-🔜 Versions .app et .exe
-🔜 Gestes avancés : drag & drop, zoom, multi-curseurs
-🔜 Interface multi-langue 🌍
-</details>
-🏷️ Tags
-#VirtualMouse #HandTracking #Gestures #PyQt6 #MediaPipe #Python #OpenSource #VMC
+### **Virtual Mouse 2.0 - Enhanced UI** 🖱️🤖
+
+---
+
+#### **Description 🚀**
+
+**Virtual Mouse** allows you to control your computer's cursor **entirely using hand gestures** through your webcam. No need for a physical mouse anymore! Simply use your hands to move the cursor, click, scroll, and even execute keyboard shortcuts. Version 2.0 brings a **modern design**, **new animations**, and **more precise control** for an even better user experience.
+
+---
+
+#### **Key Features 🌟**
+
+- **Cursor control** via **right hand** with the **index finger** raised.
+- **Left-click/Right-click** by performing a **pinch gesture** with either hand.
+- **Scrolling** by making a **fist** with either hand (up or down).
+- **Keyboard shortcuts** (e.g., Command + Q on macOS to quit an app).
+- **Sleek, modern UI** featuring a **gradient animated background**, smooth animations, and fluid cursor movements.
+- **1D Kalman Filters** for **smoother and more natural cursor movement** 🖱️✨.
+- **Support for both right and left hand control** for a more intuitive experience.
+- **Gesture instructions** and **visual feedback** for better interaction.
+
+---
+
+#### **Installation 🛠️**
+
+1. **Windows (.exe) and macOS (.app)**: Coming soon!
+   - Download links will be available shortly.
+
+2. **Prerequisites**:
+   - Python 3.x
+   - Libraries: `opencv-python`, `mediapipe`, `pyautogui`, `PyQt6`, `numpy`
+   - For the **.exe** and **.app** files, an easy-to-follow setup guide will be available once the installation package is ready.
+
+---
+
+#### **Commands & Hand Gestures 👐**
+
+| **Gesture**                           | **Action**                                  |
+|---------------------------------------|---------------------------------------------|
+| **Index raised** (right hand)         | Move the cursor                            |
+| **Pinch** (right hand)                | Left-click 🖱️                              |
+| **Pinch** (left hand)                 | Right-click 🖱️                             |
+| **Closed fist** (right hand)          | Scroll down ⬇️                             |
+| **Closed fist** (left hand)           | Scroll up ⬆️                               |
+| **Middle finger raised**              | Execute keyboard shortcut (e.g., Command + Q on macOS to quit an app) |
+
+---
+
+#### **Badges & Technologies 🏆**
+
+[![PyQt6](https://img.shields.io/badge/Framework-PyQt6-blue)](https://www.riverbankcomputing.com/software/pyqt/intro)  
+[![MediaPipe](https://img.shields.io/badge/Framework-MediaPipe-lightgreen)](https://mediapipe.dev/)  
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+
+---
+
+#### **UI Preview 🖼️**
+
+![Interface](path/to/screenshot.png)
+
+- **Dynamic and responsive controls** with real-time feedback.
+- **Smooth gradient animated background** that changes in real-time.
+- **Webcam video feed** integrated with hand tracking and gesture recognition.
+- **Start/Stop button** to control the state of the system.
+- **Gesture instructions** displayed in a compact and intuitive interface.
+
+---
+
+#### **Known Issues / Limitations 🚨**
+
+- **Lighting** plays a crucial role: Works best with **good lighting conditions**.
+- **Gesture recognition** may be less accurate in environments that are too dark or noisy.
+- Currently, **only two hands** are supported for control, with basic gesture management.
+- **Limited gesture set**: The system currently recognizes only a select set of gestures for control.
+
+---
+
+#### **How to Contribute ✨**
+
+If you're a developer interested in contributing to this project, feel free to submit **Pull Requests** or create **Issues**. All contributions are welcomed, and collaboration is encouraged!
+
+#### **Contact 📧**
+
+For any questions, suggestions, or feedback, please reach out via email at **mascret.clement@gmail.com**.
+
+---
+
+#### **Upcoming Features 🔜**
+
+- **Voice Control**: Soon, we'll introduce the ability to control the mouse through voice commands.
+- **Enhanced Hand Tracking Precision**: We're working on refining the hand detection and gesture recognition algorithms to make the system even more accurate.
+- **Gesture Customization**: Users will be able to define their own gestures and assign them to specific actions.
+
+---
+
+#### **Download Coming Soon**
+
+The installer for **Windows (.exe)** and **macOS (.app)** will be available soon. Please stay tuned for the official release!
+
+---
+
+### **Thank You for Your Support! 💙**
