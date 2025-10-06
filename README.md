@@ -13,7 +13,7 @@
 - **Cursor control** via **right hand** with the **index finger** raised.
 - **Left-click/Right-click** by performing a **pinch gesture** with either hand.
 - **Scrolling** by making a **fist** with either hand (up or down).
-- **Keyboard shortcuts** (e.g., Command + Q on macOS to quit an app).
+- **locked computer** when raising your middle finger 
 - **Sleek, modern UI** featuring a **gradient animated background**, smooth animations, and fluid cursor movements.
 - **1D Kalman Filters** for **smoother and more natural cursor movement** 🖱️✨.
 - **Support for both right and left hand control** for a more intuitive experience.
