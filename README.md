@@ -42,7 +42,7 @@
 | **Pinch** (left hand)                 | Right-click 🖱️                             |
 | **Closed fist** (right hand)          | Scroll down ⬇️                             |
 | **Closed fist** (left hand)           | Scroll up ⬆️                               |
-| **Middle finger raised**              | Execute keyboard shortcut (e.g., Command + Q on macOS to quit an app) |
+| **Middle finger raised**              | Execute command to Locked your computer|
 
 ---
 
